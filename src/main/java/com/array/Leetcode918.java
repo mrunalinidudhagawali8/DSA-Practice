@@ -24,6 +24,7 @@ public class Leetcode918 {
             minSoFar = Math.min(currMin, minSoFar);
         }
 
+        //handles if all elements are negative
         if(maxSoFar<0) return maxSoFar;
 
         return Math.max(maxSoFar, totalSum - minSoFar);
