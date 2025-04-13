@@ -1,5 +1,8 @@
 package com.array;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Q1{
 
 	/**
@@ -28,6 +31,7 @@ public class Q1{
 				}
 			}
 		}
+
 
 		return count >= n;
 	}
