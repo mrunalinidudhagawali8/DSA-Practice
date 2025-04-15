@@ -120,7 +120,7 @@ package com.array;
 
 /**
  * 53. Maximum Subarray
- * 53. Maximum Subarray
+ * Comapnies Medium	Amazon, Google, Adobe
  * Given an integer array nums, find the subarray with the largest sum, and return its sum.
  *
  *
@@ -151,7 +151,7 @@ package com.array;
 
 /**
  * 918. Maximum Sum Circular Subarray
- *
+ *Companies - Medium	Google, Microsoft
  * Given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.
  *
  * A circular array means the end of the array connects to the beginning of the array. Formally, the next element of nums[i] is nums[(i + 1) % n] and the previous element of nums[i] is nums[(i - 1 + n) % n].
@@ -210,4 +210,29 @@ package com.array;
  * 1 <= nums.length <= 2 * 104
  * -10 <= nums[i] <= 10
  * The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
+ */
+
+/**
+ * 560. Subarray Sum Equals K
+ * Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+ *
+ * A subarray is a contiguous non-empty sequence of elements within an array.
+ *
+ *
+ *
+ * Example 1:
+ *
+ * Input: nums = [1,1,1], k = 2
+ * Output: 2
+ * Example 2:
+ *
+ * Input: nums = [1,2,3], k = 3
+ * Output: 2
+ *
+ *
+ * Constraints:
+ *
+ * 1 <= nums.length <= 2 * 104
+ * -1000 <= nums[i] <= 1000
+ * -107 <= k <= 107
  */
