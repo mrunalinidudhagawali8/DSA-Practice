@@ -16,21 +16,21 @@ public class Leetcode724 {
             ps[i] = ps[i-1]+arr[i];
         }
 
-        for(int i=0;i<ps.length;i++)
-        {
-            for(int i=0;i<arr.length;i++)
-            {
-                int sl;
-                if(i==0){
-                    sl=0;
-                }else{
-                    sl = ps[i-1];
-                }
-                int sr = ps[ps.length-1]-ps[i];
-                if (sl == sr) return i;
-
-            }
-        }
+//        for(int i=0;i<ps.length;i++)
+//        {
+//            for(int i=0;i<arr.length;i++)
+//            {
+//                int sl;
+//                if(i==0){
+//                    sl=0;
+//                }else{
+//                    sl = ps[i-1];
+//                }
+//                int sr = ps[ps.length-1]-ps[i];
+//                if (sl == sr) return i;
+//
+//            }
+//        }
 
         return -1;
     }
