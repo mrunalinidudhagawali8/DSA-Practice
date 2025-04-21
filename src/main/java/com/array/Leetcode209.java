@@ -2,7 +2,26 @@ package com.array;
 
 public class Leetcode209 {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(bruteforce(4, new int[]{2,3,4}));
+    }
+    public static int bruteforce(int target, int[] nums)
+    {
+        int minLen = Integer.MAX_VALUE;
+
+        for(int i=0;i<nums.length;i++)
+        {
+            int sum=0;
+            for(int j=i;j<nums.length;j++)
+            {
+                sum+=nums[j];
+                if(sum>=target)
+                {
+                    minLen = Math.min(minLen, (j-i+1));
+                }
+            }
+        }
+
+        return minLen;
     }
     public int minSubArrayLen(int target, int[] nums) {
         int left=0, right=0;
