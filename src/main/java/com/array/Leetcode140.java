@@ -19,6 +19,7 @@ public class Leetcode140 {
         List<String> res = new ArrayList<>();
         backtrack(0, new StringBuilder(), res, s, wordDicSet);
         return res;
+
     }
 
     private static void backtrack(int start, StringBuilder cand, List<String> res, String s, Set<String> wordDic) {
