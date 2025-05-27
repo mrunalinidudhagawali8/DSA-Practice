@@ -13,8 +13,12 @@ public class practise {
 //        System.out.println(Arrays.toString(Arrays.stream(arr).mapToObj(i -> i).toArray()));
 
         //is Palindrome check
-        String str= "aabdbla";
-        System.out.println(isPalindrome(str, 0));
+//        String str= "aabdbla";
+//        System.out.println(isPalindrome(str, 0));
+
+        Leetcode990 obj = new Leetcode990();
+
+        System.out.println(obj.equationsPossible(new String[]{"a==b","b!=a"}));;
     }
 
     private static int sumOfNNumber(int n) {
