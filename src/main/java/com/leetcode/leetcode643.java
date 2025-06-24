@@ -40,4 +40,6 @@ public class leetcode643 {
 
      return maxAvg;
     }
+
+    //
 }

@@ -22,8 +22,10 @@ public class Leetcode3 {
             while(hs.contains(c) ){
                 hs.remove(s.charAt(left));
                 left++;
-            }hs.add(c);
+            }
+            hs.add(c);
             maxLen = Math.max(maxLen, right-left+1);
+
 
         }
 
